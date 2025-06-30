@@ -1,0 +1,47 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-size: cover;
+    
+}
+
+.Login {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+ 
+input, select, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color:  #FF5733;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #FF5733;
+}
+
+h1, h3 {
+    text-align: center;
+}
+ 
